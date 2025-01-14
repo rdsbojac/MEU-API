@@ -1,7 +1,8 @@
 const catalogo = {
     categories: [
         {
-            category: "Ação",
+            id: 1,
+            title: "acao",
             movies: [
                 { id: 1, title: "O Resgate", description: "Um agente secreto deve resgatar reféns em um cenário perigoso.", cover_url: "https://meu-api-catalogo.onrender.com/images/o_resgate.jpg ", cast: ["Chris Hemsworth", "Randeep Hooda"] },
                 { id: 2, title: "Missão Impossível: Fallout", description: "Ethan Hunt enfrenta desafios extremos para salvar o mundo.", cover_url: "https://meu-api-catalogo.onrender.com/images/missao_impossivel_fallout.jpg  ", cast: ["Tom Cruise", "Henry Cavill"] },
@@ -16,7 +17,8 @@ const catalogo = {
             ]
         },
         {
-            category: "Comédia",
+            id: 2,
+            title: "comedia",
             movies: [
                 { id: 11, title: "Se Beber, Não Case", description: "Um grupo de amigos perde a memória após uma noite de festa em Las Vegas.", cover_url: "https://meu-api-catalogo.onrender.com/images/se_beber_nao_case.jpg", cast: ["Bradley Cooper", "Zach Galifianakis"] },
                 { id: 12, title: "Superbad: É Hoje", description: "Dois adolescentes tentam fazer sucesso em uma festa antes de se formarem no ensino médio.", cover_url: "https://meu-api-catalogo.onrender.com/images/superbad.jpg", cast: ["Jonah Hill", "Michael Cera"] },
@@ -31,7 +33,8 @@ const catalogo = {
             ]
         },
         {
-            category: "Drama",
+            id: 3,
+            title: "drama",
             movies: [
                 { id: 21, title: "Forrest Gump", description: "A história de um homem simples com um impacto profundo na história americana.", cover_url: "https://meu-api-catalogo.onrender.com/images/forrest_gump.jpg", cast: ["Tom Hanks", "Robin Wright"] },
                 { id: 22, title: "O Poderoso Chefão", description: "A saga da poderosa família mafiosa Corleone.", cover_url: "https://meu-api-catalogo.onrender.com/images/o_poderoso.jpg ", cast: ["Marlon Brando", "Al Pacino"] },
@@ -46,7 +49,8 @@ const catalogo = {
             ]
         },
         {
-            category: "Aventura",
+            id: 4,
+            title: "aventura",
             movies: [
                 { id: 31, title: "O Senhor dos Anéis: A Sociedade do Anel", description: "A jornada épica de um grupo que busca destruir um anel poderoso.", cover_url: "https://meu-api-catalogo.onrender.com/images/o_senhor_dos_aneis_a_sociedade_do_anel.jpg", cast: ["Elijah Wood", "Ian McKellen"] },
                 { id: 32, title: "Piratas do Caribe: A Maldição do Pérola Negra", description: "Um pirata tenta capturar o tesouro perdido e salvar sua tripulação.", cover_url: "https://meu-api-catalogo.onrender.com/images/piratas_do_caribe_a_maldicao_do_perola_negra.jpg", cast: ["Johnny Depp", "Orlando Bloom"] },
@@ -61,7 +65,8 @@ const catalogo = {
             ]
         },
         {
-            category: "Terror",
+            id: 5,
+            title: "terror",
             movies: [
                 { id: 41, title: "O Iluminado", description: "Um escritor enlouquece enquanto cuida de um hotel isolado no inverno.", cover_url: "https://meu-api-catalogo.onrender.com/images/o_iluminado.jpg", cast: ["Jack Nicholson", "Shelley Duvall"] },
                 { id: 42, title: "Hereditary", description: "Uma família enfrenta eventos paranormais após a morte de sua matriarca.", cover_url: "https://meu-api-catalogo.onrender.com/images/hereditario.jpg", cast: ["Toni Collette", "Alex Wolff"] },
